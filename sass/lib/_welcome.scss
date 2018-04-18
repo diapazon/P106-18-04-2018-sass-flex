@@ -1,0 +1,44 @@
+#welcome {
+	.container {
+		.row {
+			.col-12 {
+				h1 {
+					text-align: center;
+				}
+			}
+
+			&:nth-child(2) {
+				.col-4 {
+					.col-7 {
+
+						h1 {
+							text-align: right;
+							color: red;
+							font-size: 30px;
+
+							hover {
+								background: lighten(green,50%);
+								color: black;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.row {
+
+
+		.col-4 {
+			img {
+				/*overflow:hidden;*/
+				width: 100%;
+			}
+		}
+
+		.col-8 {
+			background: #f9f9f9;
+		}
+	}
+}
